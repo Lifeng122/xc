@@ -85,7 +85,7 @@
                         >;
                 };
         };
-    combos {
+/*    combos {
         compatible = "zmk,combos";
 
         esc { 
@@ -121,5 +121,5 @@
             key-positions = <19 35>;
             layers = <0>;
         };
-    };
+    };*/
 };
