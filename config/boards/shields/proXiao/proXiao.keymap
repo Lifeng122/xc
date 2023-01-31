@@ -16,7 +16,7 @@
 #define ADJ 3
 
 &lt { quick_tap_ms = <220>; };
-&mt { quick_tap_ms = <220>; }; 
+&mt { quick_tap_ms = <220>; };
 
 / {
     macros {
@@ -62,18 +62,18 @@
                 
                 lower_layer {
                         bindings = <
- &kp N1       &kp N2      &kp N3      &kp N4         &kp N5                   &kp LBKT     &kp RBKT    &kp UP           &kp DLLR       &kp PRCNT
- &kp N6       &kp N7      &kp N8      &kp N9         &kp N0                   &kp GRAVE    &kp LEFT    &kp DOWN         &kp RIGHT      &kp APOS
- &mt LALT D   &kp TAB     &kp ESC     &kp ENTER      &DEL                     &kp BSLH     &kp SEMI    &mt LSHFT COMMA  &mt LSHFT DOT  &mt LSHFT FSLH
-                         &mt LGUI TAB &mt LGUI D &kp SPACE        &kp RSHFT &kp CLCK     &kp BSPC
+ &kp N1     &kp N2     &kp N3     &kp N4      &kp N5                   &kp LBKT     &kp RBKT    &kp UP     &kp DLLR  &kp PRCNT
+ &kp N6     &kp N7     &kp N8     &kp N9      &kp N0                   &kp GRAVE    &kp LEFT    &kp DOWN   &kp RIGHT &kp APOS
+ &kp LALT   &kp N1     &kp N2     &kp N3      &numdot                  &kp BSLH     &kp MINUS   &kp EQUAL  &kp STAR  &kp FSLH
+                                  &lt ADJ TAB &trans &trans        &trans &trans        &lt ADJ DEL
                         >;
                 };
                 raise_layer {
                         bindings = <
-&kp F1   &kp F2   &kp F3     &kp F4     &kp F5                 &kp HOME    &kp KP_N7  &kp KP_N8   &kp KP_N9  &kp N0
-&kp F6   &kp F7   &kp F8     &kp F9     &kp F10                &kp END     &kp KP_N4  &kp KP_N5   &kp KP_N6  &kp N0 
-&kp F11  &kp F12  &kp SLCK   &kp PG_UP  &kp PU_DN              &kp KP_N0   &kp KP_N1  &kp KP_N2   &kp KP_N3  &kp N0
-                         &mt LALT TAB   &kp NO    &mo 3        &kp RCTRL &kp RALT &kp GUI
+&kp C_VOL_UP   &kp PG_UP  &kp C_PP       &kp HOME &kp C_PAUSE                                 &kp N0    &kp HOME  &kp C_PP    &kp PG_UP  &kp C_VOL_UP
+&kp C_VOL_DN   &kp LEFT   &kp UP         &kp DOWN &kp RIGHT                                   &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &kp C_VOL_DN 
+&kp C_MUTE     &kp PG_DN  &kp LG(LS(S))  &kp END  &kp C_PLAY                                  &kp N0    &kp END   &grtsgn      &kp PG_DN  &kp C_MUTE
+                                        &trans   &trans       &lt ADJ RET        &lt ADJ ESC &trans &trans
                         >; 
                 };
                                 adjust_layer {
@@ -85,41 +85,4 @@
                         >;
                 };
         };
-/*    combos {
-        compatible = "zmk,combos";
-
-        esc { 
-            timeout-ms = <50>;
-            bindings = <&kp ESC>;
-            key-positions = <01 34>;
-            layers = <0>;
-        };
-
-        tab {
-            timeout-ms = <50>;
-            bindings = <&kp TAB>;
-            key-positions = <02 34>;
-            layers = <0>;
-        };
-
-        cps {
-            timeout-ms = <50>;
-            bindings = <&kp CLCK>;
-            key-positions = <10 34>;
-            layers = <0>;
-        };
-
-        shift {
-            timeout-ms = <50>;
-            bindings = <&kp LSHFT>;
-            key-positions = <34 35>;
-            layers = <0>;
-
-        semi {
-            timeout-ms = <50>;
-            bindings = <&mt LSHFT SEMI>;
-            key-positions = <19 35>;
-            layers = <0>;
-        };
-    };*/
 };
