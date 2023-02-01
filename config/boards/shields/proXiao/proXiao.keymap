@@ -31,46 +31,53 @@
             layers = <0>;
         };
         
-/*        combo_capslock {
+        combo_capslock {
             timeout-ms = <50>;
             key-positions = <10 34>;
             bindings = <&kp CLCK>;
+            layers = <0>;
         };
         
-        combo_shift {
+/*        combo_shift {
             timeout-ms = <50>;
             key-positions = <34 35>;
             bindings = <&kp LSHFT>;
+            layers = <0>;
         };
         
         combo_colon {
             timeout-ms = <50>;
             key-positions = <19 35>;
             bindings = <&kp COLON>;
+            layers = <0>;
         };
         
         combo_lt {
             timeout-ms = <50>;
             key-positions = <27 35>;
             bindings = <&kp LT>;
+            layers = <0>;
         };
         
         combo_gt {
             timeout-ms = <50>;
             key-positions = <28 35>;
             bindings = <&kp GT>;
+            layers = <0>;
         };
         
         combo_qmark {
             timeout-ms = <50>;
             key-positions = <29 35>;
             bindings = <&kp QMARK>;
+            layers = <0>;
         };
         
         combo_bqt {
             timeout-ms = <50>;
             key-positions = <19 36>;
             bindings = <&kp BQT>;
+            layers = <0>;
         }; */
     };
 };
