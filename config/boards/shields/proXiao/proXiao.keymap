@@ -45,14 +45,14 @@
             layers = <0>;
         };
         
-/*        combo_colon {
+        combo_colon {
             timeout-ms = <50>;
             key-positions = <19 35>;
             bindings = <&kp COLON>;
             layers = <0>;
         };
         
-        combo_lt {
+/*        combo_lt {
             timeout-ms = <50>;
             key-positions = <27 35>;
             bindings = <&kp LT>;
