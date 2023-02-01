@@ -38,14 +38,14 @@
             layers = <0>;
         };
         
-/*        combo_shift {
+        combo_shift {
             timeout-ms = <50>;
             key-positions = <34 35>;
             bindings = <&kp LSHFT>;
             layers = <0>;
         };
         
-        combo_colon {
+/*        combo_colon {
             timeout-ms = <50>;
             key-positions = <19 35>;
             bindings = <&kp COLON>;
