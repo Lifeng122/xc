@@ -73,10 +73,10 @@
             layers = <0>;
         };
         
-        combo_bqt {
+        combo_dqt {
             timeout-ms = <50>;
             key-positions = <19 36>;
-            bindings = <&kp BQT>;
+            bindings = <&kp DQT>;
             layers = <0>;
         }; 
     };
