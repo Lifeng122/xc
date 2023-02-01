@@ -20,64 +20,64 @@
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 34>;
-            bindings = <&kp ESC>;
             layers = <0>;
+            bindings = <&kp ESC>;
         };
         
         combo_tab {
             timeout-ms = <50>;
             key-positions = <1 34>;
-            bindings = <&kp TAB>;
             layers = <0>;
+            bindings = <&kp TAB>;
         };
         
         combo_capslock {
             timeout-ms = <50>;
             key-positions = <10 34>;
-            bindings = <&kp CLCK>;
             layers = <0>;
+            bindings = <&kp CLCK>;
         };
         
         combo_shift {
             timeout-ms = <50>;
             key-positions = <34 35>;
-            bindings = <&kp LSHFT>;
             layers = <0>;
+            bindings = <&kp LSHFT>;
         };
         
         combo_colon {
             timeout-ms = <50>;
             key-positions = <19 35>;
-            bindings = <&kp COLON>;
             layers = <0>;
+            bindings = <&kp COLON>;
         };
         
         combo_lt {
             timeout-ms = <50>;
             key-positions = <27 35>;
-            bindings = <&kp LT>;
             layers = <0>;
+            bindings = <&kp LT>;
         };
         
         combo_gt {
             timeout-ms = <50>;
             key-positions = <28 35>;
-            bindings = <&kp GT>;
             layers = <0>;
+            bindings = <&kp GT>;
         };
         
         combo_qmark {
             timeout-ms = <50>;
             key-positions = <29 35>;
-            bindings = <&kp QMARK>;
             layers = <0>;
+            bindings = <&kp QMARK>;
         };
         
         combo_bqt {
             timeout-ms = <50>;
             key-positions = <19 36>;
-            bindings = <&kp BQT>;
             layers = <0>;
+            bindings = <&kp BQT>;
         };
     };
 };
