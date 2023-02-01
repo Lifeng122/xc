@@ -52,14 +52,14 @@
             layers = <0>;
         };
         
-/*        combo_lt {
+        combo_lt {
             timeout-ms = <50>;
             key-positions = <27 35>;
             bindings = <&kp LT>;
             layers = <0>;
         };
         
-        combo_gt {
+/*        combo_gt {
             timeout-ms = <50>;
             key-positions = <28 35>;
             bindings = <&kp GT>;
