@@ -70,10 +70,10 @@
                 };
                 raise_layer {
                         bindings = <
-&kp C_VOL_UP   &kp PG_UP  &kp C_PP       &kp HOME &kp C_PAUSE                                 &kp N0    &kp HOME  &kp C_PP    &kp PG_UP  &kp C_VOL_UP
-&kp C_VOL_DN   &kp LEFT   &kp UP         &kp DOWN &kp RIGHT                                   &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &kp C_VOL_DN 
-&kp C_MUTE     &kp PG_DN  &kp LG(LS(S))  &kp END  &kp C_PLAY                                  &kp N0    &kp END   &grtsgn      &kp PG_DN  &kp C_MUTE
-                                        &trans   &trans       &lt ADJ RET        &lt ADJ ESC &trans &trans
+&kp F1   &kp F2   &kp F3    &kp F4     &kp F5                                 &kp HOME    &kp KP_7    &kp KP_8     &kp KP_9    &kp NO
+&kp F6   &kp F7   &kp F8    &kp F9     &kp F10                                &kp END     &kp KP_4    &kp KP_5     &kp KP_6    &kp NO 
+&kp F11  &kp F12  &kp SLCK  &kp PU_UP  &kp PU_DN                              &kp KP_0    &kp KP_1    &kp KP_2      &kp KP_3   &kp NO
+                            &mt LALT TAB   &kp NO       &mo 3        &kp RCTRL  &kp RALT  &kp GUI
                         >; 
                 };
                                 adjust_layer {
