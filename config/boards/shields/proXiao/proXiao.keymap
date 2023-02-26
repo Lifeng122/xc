@@ -19,21 +19,21 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 34>;
+            key-positions = <0 1>;
             bindings = <&kp ESC>;
             layers = <0>;
         };
         
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <1 34>;
+            key-positions = <1 2>;
             bindings = <&kp TAB>;
             layers = <0>;
         };
         
         combo_capslock {
             timeout-ms = <50>;
-            key-positions = <10 34>;
+            key-positions = <10 11>;
             bindings = <&kp CLCK>;
             layers = <0>;
         };
@@ -47,35 +47,35 @@
         
         combo_colon {
             timeout-ms = <50>;
-            key-positions = <19 35>;
+            key-positions = <18 19>;
             bindings = <&kp COLON>;
             layers = <0>;
         };
         
         combo_lt {
             timeout-ms = <50>;
-            key-positions = <27 35>;
+            key-positions = <27 28>;
             bindings = <&kp LT>;
             layers = <0>;
         };
         
         combo_gt {
             timeout-ms = <50>;
-            key-positions = <28 35>;
+            key-positions = <27 28>;
             bindings = <&kp GT>;
             layers = <0>;
         };
         
         combo_qmark {
             timeout-ms = <50>;
-            key-positions = <29 35>;
+            key-positions = <28 29>;
             bindings = <&kp QMARK>;
             layers = <0>;
         };
         
         combo_dqt {
             timeout-ms = <50>;
-            key-positions = <19 36>;
+            key-positions = <18 19>;
             bindings = <&kp DQT>;
             layers = <0>;
         }; 
